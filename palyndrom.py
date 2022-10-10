@@ -1,6 +1,3 @@
-from audioop import reverse
-
-
 def word():
     if x == r:
         return("palyndrom", x)
