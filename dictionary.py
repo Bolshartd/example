@@ -1,6 +1,6 @@
 def biggest1(my_dict):
-    max_ind = 'a'
-    max_value = my_dict[max_ind]
+    max_ind = list(my_dict)[0]
+    max_value = list(my_dict.values())[0]
     for i in my_dict:
         if my_dict[i] > max_value:
             max_value = my_dict[i]
