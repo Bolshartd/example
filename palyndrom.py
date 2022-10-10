@@ -8,3 +8,4 @@ def word(x):
 if __name__ == "__main__":
     x = "wow"
     print(word(x))
+    
