@@ -1,4 +1,5 @@
 def word(x):
+    r = "".join(reversed(x))
     if x == r:
         return("palyndrom", x)
     else:
@@ -6,5 +7,4 @@ def word(x):
         
 if __name__ == "__main__":
     x = "wow"
-    r = "".join(reversed(x))
     print(word(x))
