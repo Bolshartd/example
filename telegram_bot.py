@@ -47,8 +47,4 @@ class Hello:
       else:
          bot.send_message(message.chat.id, "Привет, я Валютный бот\nДля начала обмена нажмите: /start")
 
-class convert:
-   amount = 
-   
-
 bot.polling(none_stop=True, interval=0)
