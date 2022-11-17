@@ -6,7 +6,7 @@ import re
 
 token1 = password.token
 bot = telebot.TeleBot(token1)
-os.system('cmd')
+
 
 class First_buttons:
    @bot.message_handler(commands=['start'])
@@ -39,7 +39,7 @@ class Second_buttons:
 class Hello:
    @bot.message_handler(content_types=['text'])
    def hello_word(message):
-      if message.text == print(re.match("\d", message.text)): #число
+      if message.text == "1": #число
          bot.send_message(message.chat.id, "Я не понимаю чисел, введи текст!")
       elif message.text == "hey": #текст на английском
          bot.send_message(message.chat.id, "Я не понимаю английского языка, пиши по русски")
