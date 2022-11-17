@@ -1,12 +1,9 @@
 import telebot
 import password
 from telebot import types
-import re
-
 
 token1 = password.token
 bot = telebot.TeleBot(token1)
-
 
 class First_buttons:
    @bot.message_handler(commands=['start'])
